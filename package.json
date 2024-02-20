@@ -1,0 +1,26 @@
+{
+  "name": "netology-calendar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:UsefulWeb/netology-calendar.git",
+  "author": "Vladimir Yazykov <neizerth@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/tough-cookie": "^4.0.5",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "axios-cookiejar-support": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "module-alias": "^2.2.3",
+    "tough-cookie": "^4.1.3"
+  }
+}
